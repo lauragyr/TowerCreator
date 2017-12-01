@@ -1,7 +1,22 @@
 function testfunktion() {
  
      console.log("Verknüpfung funktioniert");
+ }
      pseudoStart(0);
+
+
+function drawCubs () {
+
+	var draw, w, h
+    draw = b.getContext('2d');
+    w    = 500px;
+    h    = 500px;
+
+
+}
+
+
+
     /*var b = document.getElementById('schachbrett');
     b.width = 500;
     b.height = 500;
@@ -35,10 +50,11 @@ function drawingLoop() {
         }
     }
 }   
-
+$( "#createButton" ).click(function() {
+  testfunktion( "Handler for .click() called." );
+});
 
 
 */
 
 
-}
