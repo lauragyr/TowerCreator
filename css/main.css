@@ -23,13 +23,6 @@ h2 {
 	display: flex;
 }
 
-i {
-	color: white;
-	width: 50vw;
-	text-align: center;
-}
-
-
 #schachbrett {
 	background-color: red;
 	width: 500px;
@@ -51,5 +44,11 @@ i {
 
 /* Lauras Area */
 
+#left {
+	width: 85vw;
+}
 
+#right {
+	width: 15vw;
+}
 
