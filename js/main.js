@@ -2,10 +2,12 @@ function testfunktion() {
  
      console.log("Verknüpfung funktioniert");
      pseudoStart(0);
-    var b = document.getElementById('bild');
+    /*var b = document.getElementById('schachbrett');
     b.width = 500;
     b.height = 500;
+    */
     
+    /*
     // mit Knopf
     var knopf = document.createElement("BUTTON");
     knopf.innerHTML = "<b>RRRRANDOM</b>";
@@ -21,6 +23,7 @@ function drawingLoop() {
     draw = b.getContext('2d');
     w    = b.width;
     h    = b.height;
+
     
     draw.clearRect(0, 0, w, h);
     for (var y=0; y<5; y++) {
@@ -35,7 +38,7 @@ function drawingLoop() {
 
 
 
-
+*/
 
 
 }
