@@ -23,13 +23,6 @@ h2 {
 	display: flex;
 }
 
-i {
-	color: white;
-	width: 50vw;
-	text-align: center;
-}
-
-
 #schachbrett {
 	background-color: red;
 	width: 500px;
@@ -110,5 +103,33 @@ i {
 
 /* Lauras Area */
 
+#left {
+	width: 70vw;
+	display: flex;
 
+}
 
+#right {
+	width: 30vw;
+	display: flex;
+	
+}
+
+#right div {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+p {
+	color: white;
+	text-decoration: none;
+	font-family: 'Barlow Condensed';
+}
+
+a {
+	display: flex;
+}
+
+img {
+	display: flex;
+}
