@@ -16,5 +16,11 @@ h1 {
 
 #nav {
 	height: 20vh;
-	background-color: white;
+	background-color: black;
+	display: flex;
+}
+
+i {
+	color: white;
+  	padding: 20px;
 }
