@@ -45,10 +45,32 @@ h2 {
 /* Lauras Area */
 
 #left {
-	width: 85vw;
+	width: 70vw;
+	display: flex;
+
 }
 
 #right {
-	width: 15vw;
+	width: 30vw;
+	display: flex;
+	
 }
 
+#right div {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+p {
+	color: white;
+	text-decoration: none;
+	font-family: 'Barlow Condensed';
+}
+
+a {
+	display: flex;
+}
+
+img {
+	display: flex;
+}
