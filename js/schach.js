@@ -44,61 +44,41 @@ for (let y = 0; y < 5; y++)
 
 }
 */
+var muster = document.getElementById('schach');
 
+function formengenerator()  {
+    var draw = muster.getContext('2d')
+    let array = [];
 
-function grundriss () {
-var draw
+    for (let i = 0; i < 5; i++) {
+        array[i] = [];
+    }
 
+    for (let y = 0; y < 5; y++) {
+        for (let x = 0; x < 5; x++) {
+            array[x][y] = Math.round(Math.random());
+        }
+    }
 
-
-let array = [];
-
-for (let i = 0; i < 5; i++)
-{
-	array[i] = [];
-}
-
-for (let y = 0; y < 5; y++)
-{
-	for (let x = 0; x < 5; x++)
-	{
-		array[x][y] = Math.round(Math.random());
-	}
-}
-
-console.log(array);
+    console.log(array);
 
 
 
 
+   
 
-for (let y = 0; y < 5; y++)
-{
-	for (let x = 0; x < 5; x++)
-	{
-		if (array[x][y] == 1)
-		{
-            //draw.fillStyle = '#000000';
-            //draw.fillRect(x * 100, y * 100, 100, 100);
+    for (let y = 0; y < 5; y++) {
+        for (let x = 0; x < 5; x++) {
+            if (array[x][y] == 1) {
+                draw.fillStyle = '#000000';
+            } else {
+                draw.fillStyle = '#FFFFFF';
+            }
 
-
-			// draw black
-			// zeichne x * px bis (x + 1) * px
-			// zeichne y * px bis (y + 1) * px
-			// setze Frabe schwarz
-		}
-		else
-		{
-			//draw.fillStyle = '#FFFFFF';
-            //draw.fillRect(x * 100, y * 100, 100, 100);
-			// draw white
-			// setze Frabe weiss
-		}
-
-		//rect(x*width, y*height, width, height);
-		draw.fillRect(x * 100, y * 100, 100, 100);
-	}
-}
+            draw.fillRect(x * 100, y * 100, 100, 100);
+           
+        }
+    }
 
 
 

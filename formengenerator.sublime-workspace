@@ -1,0 +1,232 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"border"
+			],
+			[
+				"pseud",
+				"pseudoRange"
+			],
+			[
+				"a",
+				"arrayurl"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"ar",
+				"arrayPos"
+			],
+			[
+				"fo",
+				"forEach"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"last_filter": "ssht",
+		"selected_items":
+		[
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/TowerCreator/js/schach.js",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/TowerCreator/index_schach.html",
+		"/Applications/Twine/Stories/Versuch1.html",
+		"/Users/Regula/Documents/Twine/Stories/MyMermaidBoyfriend.html",
+		"/Users/Regula/Documents/HSLU/3Semester/Mentorat Web_Mobile/MyMermaidBoyfriend.html",
+		"/Users/Regula/Documents/HSLU/2Semester/Digital_Design/Perschak_Regula /MeAndTheInternet /js/main.js",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/beispiel7_teile_auf_raster.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/index.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/pseudo.js",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/Beispiel 4 Repetition.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/beispiel8.html",
+		"/Users/Regula/Downloads/js schablonen/Beispiel 5 click oder interval.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/Beispiel 5 click oder interval.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/Beispiel 6 pseudo Neo Geo.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/Beispiel 3 Verteilung.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/Beispiel 2 quadrate.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/Beispiel 1 striche.html",
+		"/Users/Regula/Documents/HSLU/3Semester/AdvancedDesignTopic/js schablonen/zufall.js",
+		"/Users/Regula/Documents/HSLU/3Semester/ARVR/workflow material/web zylinder/zyl obj laden II.html",
+		"/Users/Regula/Documents/HSLU/2Semester/Digital_Design/MeAndTheInternet /index.html",
+		"/Users/Regula/Documents/HSLU/2Semester/Digital_Design/MeAndTheInternet /js/automations.js",
+		"/Users/Regula/Desktop/url_eins_nach_dem_anderen.js",
+		"/Users/Regula/Desktop/MeMyselfAndTheInternet/screenshots_Versuch/batch_screenshots_custumized3.js",
+		"/Users/Regula/Desktop/MeMyselfAndTheInternet/Website/css/main_sub2.css",
+		"/Users/Regula/Documents/HSLU/2Semester/Digital_Design/MeAndTheInternet/img2.html",
+		"/Users/Regula/Desktop/simontest1.js",
+		"/Users/Regula/Desktop/imgtest/js/img.js",
+		"/Users/Regula/Desktop/imgtest/img.json",
+		"/Users/Regula/Desktop/imgtest/js/imgautomation.js",
+		"/Users/Regula/Desktop/imgtest/imgarr.js",
+		"/Users/Regula/Desktop/imgtest/img.html",
+		"/Users/Regula/Desktop/MeMyselfAndTheInternet/screenshots_Versuch/screenshot.js",
+		"/Users/Regula/Desktop/MeMyselfAndTheInternet/Website/img.html",
+		"/Users/Regula/Desktop/screenshots_Versuch/screenshot.js",
+		"/Users/Regula/Desktop/screenshots_Versuch/array4.js",
+		"/Users/Regula/Desktop/screenshots_Versuch/array1.js",
+		"/Users/Regula/Desktop/screenshots_Versuch/test.js",
+		"/Users/Regula/Desktop/hello.js",
+		"/Users/Regula/Documents/HSLU/2Semester/Digital Design/Website/Seite1.html",
+		"/Users/Regula/Desktop/Stilleben2.svg"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "formengenerator.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
