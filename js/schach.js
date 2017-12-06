@@ -61,6 +61,7 @@ function formengenerator()  {
     }
 
     console.log(array);
+    console.log(und, funktionierts laura..)
 
 
 
