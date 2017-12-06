@@ -1,38 +1,34 @@
 var muster = document.getElementById('towerbox');
 
-function towergenerator()  {
+function towergenerator() {
     var draw = muster.getContext('2d')
-    let array = [];
 
-    for (let i = 0; i < 8; i++) {
-        array[i] = [];
-    }
-
-    for (let y = 0; y < 8; y++) {
-        for (let x = 0; x < 8; x++) {
-            array[x][y] = Math.round(Math.random());
-        }
-    }
-
-    console.log(array);
-    console.log("und, funktionierts laura?");
+    draw.fillRect(0,0,504,504);
+    draw.fillStyle = '#000000';
 
 
+    let buchstabenTEST = [[0,"A"], [63,"B"],[126,"C"], [189,"D"],[252,"E"], [315,"F"], [378,"G"], [441,"H"]];
+    let zahlenTEST = [[0,"1"], [63,"2"],[126,"3"], [189,"4"],[252,"5"], [315,"6"], [378,"7"], [441,"8"]];
+    let zahlen = [0, 63, 126, 189, 252, 315, 378, 441];
+    let buchstaben = [0, 63, 126, 189, 252, 315, 378, 441];
+
+    var randZahlen = zahlen[Math.floor(Math.random() * zahlen.length)];
+    console.log("das ist die Zahl: " + randZahlen);
+
+    var randBuchstaben = buchstaben[Math.floor(Math.random() * buchstaben.length)];
+    console.log("das ist die Buchstabe: " + randBuchstaben);
 
 
+/*    var randTest = buchstabenTEST[Math.floor(Math.random() * buchstabenTEST.length)];
+    console.log("was ist das?: " + randTest);
 
-   
+    var randTest2 = zahlenTEST[Math.floor(Math.random() * zahlenTEST.length)];
+    console.log("was ist diese?: " + randTest2);
+*/
 
-    for (let y = 0; y < 8; y++) {
-        for (let x = 0; x < 8; x++) {
-            if (array[x][y] == 1) {
-                draw.fillStyle = '#000000';
-            } else {
-                draw.fillStyle = '#FFFFFF';
-            }
+    draw.fillRect(randZahlen, randBuchstaben, 63, 63);  
+    draw.fillStyle = '#FFFFFF'; 
 
-            draw.fillRect(x * 62.5, y * 62.5, 62.5, 62.5);   
-        }
-    }
+
 
 }

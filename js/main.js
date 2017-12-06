@@ -2,7 +2,7 @@ function testfunktion() {
  
      console.log("Verknüpfung funktioniert");
  }
-     pseudoStart(0);
+     /*pseudoStart(0);*/
 
 
 /*function drawCubs () {

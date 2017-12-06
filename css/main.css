@@ -69,13 +69,13 @@ h2 {
 #boxleft {
 	margin: auto;
 	height: 100%;
-	width: 33.3%;
+	width: 35vw;
 }
 
 #boxright {
 	margin: auto;
 	height: 100%;
-	width: 66.6%;
+	width: 65vw;
 }
 
 canvas {
@@ -112,3 +112,7 @@ a {
 img {
 	display: flex;
 }
+
+/*#towerfeld {
+	background-color: white;
+}*/
