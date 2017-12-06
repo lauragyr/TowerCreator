@@ -5,7 +5,7 @@ function testfunktion() {
      pseudoStart(0);
 
 
-function drawCubs () {
+/*function drawCubs () {
 
 	var draw, w, h
     draw = b.getContext('2d');
@@ -14,6 +14,8 @@ function drawCubs () {
 
 
 }
+
+*/
 
 
 
