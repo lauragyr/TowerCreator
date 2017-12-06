@@ -1,5 +1,7 @@
 body {
 	background-color: black; 
+	overflow: hidden;
+	margin: 0px; 
 }
 
 h1 {
@@ -23,20 +25,6 @@ h2 {
 	display: flex;
 }
 
-#schachbrett {
-	background-color: red;
-	width: 500px;
-	height: 500px;
-
-}
-
-#create_button {
-	background-color: orange;
-	width: 150px;
-	height: 60px;
-	border: 4px solid pink;
-
-}
 
 /* Regis Area */
 
@@ -51,7 +39,7 @@ h2 {
 	height: 150px;
 	min-width: 150px;
 	min-height: 150px;
-
+	margin: auto;
 
 
 	border: 4px solid white;
@@ -59,7 +47,6 @@ h2 {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 150px;  
-
  }
 
  h2 {
@@ -67,7 +54,8 @@ h2 {
 	color: white;
 	text-align: center;
 	font-size: 4em;
-	padding-top: 150px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
  h3 {
@@ -75,18 +63,8 @@ h2 {
 	color: white;
 	text-align: center;
 	font-size: 2em;
-
 }
 
-
-#createButton {
-	margin: auto;
-}
-
-
-#schachbrett {
-
-}
 
 #boxleft {
 	margin: auto;
@@ -100,26 +78,14 @@ h2 {
 	width: 66.6%;
 }
 
-body {
-	background-color: #888;
-	overflow: hidden;
-	margin: 20px; 
-
-}
-
-
 canvas {
 	/*position: absolute;*/
 	background-color: #EEE;
-
 }
-
-/* Lauras Area */
 
 #left {
 	width: 70vw;
 	display: flex;
-
 }
 
 #right {
