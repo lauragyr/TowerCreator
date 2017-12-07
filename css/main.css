@@ -3,8 +3,7 @@ body {
 	margin: 0px; 
 }
 
-#clickToGenerate
-{
+#clickToGenerate {
 	height: 130px;
 }
 
@@ -30,6 +29,11 @@ body {
 	display: flex;
 }
 
+#nav-right a {
+	margin-left: auto;
+    margin-right: 20px;
+}
+
 #nav-right div {
 	margin-top: auto;
 	margin-bottom: auto;
@@ -40,7 +44,6 @@ body {
 
 #creatorBox {
 	display: flex;
-	/*display: inline-block;*/
 	width: 100vw;
 }
 
@@ -50,7 +53,7 @@ body {
 	height: 150px;
 	min-width: 150px;
 	min-height: 150px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 
 
 	border: 4px solid white;
@@ -77,10 +80,7 @@ body {
 	color: white;
 	text-align: center;
 	font-size: 3em;
-	/*
-	padding-top: 30px;
-	padding-bottom: 30px;
-	*/
+	margin-top: 20px;
 }
 
  h3 {
@@ -94,6 +94,8 @@ p {
 	color: white;
 	text-decoration: none;
 	font-family: 'Barlow Semi Condensed';
+	font-size: 1.2em;
+	font-weight: 300;
 }
 
 a {
@@ -109,21 +111,20 @@ img {
 
 #boxleft {
 	height: 100%;
-	width: 30vw;
+	
 	margin: auto;
-	/*margin: auto;*/
-	/*width: 30%;
-	display: inline-block;
-	*/
+}
+
+#boxleft-formgen {
+	height: 100%;
+	width: 30vh;
+	margin: auto;
 }
 
 #boxright {
 	height: 100%;
 	width: 70vw;
 	padding-left: 50px;
-	/*margin: auto;*/
-	/*width: 70%;
-	display: inline-block;*/
 }
 
 canvas {
@@ -132,21 +133,27 @@ canvas {
 
 #example-form {
 	border: 4px solid white;
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	display: block;
 }
 
-#Koordinaten
-{
+#Koordinaten {
 	color: white;
+	display: block;
+	font-family: 'Barlow Semi Condensed';
+	font-size: 4em;
+	font-weight: 400;
+	margin-top: 50px;
 }
 
-#boxleft > div
-{
-	margin-left: 150px;
+#boxleft div {
+	margin: auto;
 }
 
-#schachbrett
-{
+#boxleft-formgen div {
+}
+
+#explanation {
+	margin-top: 30px;
 }

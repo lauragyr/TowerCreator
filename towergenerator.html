@@ -7,7 +7,6 @@
     <title>TowerCreator</title>
     <link href="css/reset.css" type="text/css" rel="stylesheet">
     <link href="css/main.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
 
     <script src="js/main.js" type="text/javascript"></script>
@@ -15,13 +14,17 @@
 
 <body>
     <div id="clickToGenerate"> 
-        <h2 class="title-form">blabla <span id="Koordinaten"></span></h2>
+        <h2 class="title-form">Click button to generate position of the figures on the field.<br>The element with the red dot is on the generated position.</h2>
     </div>
 
     <div id="creatorBox">
         <div id="boxleft"> 
             <div id="createButton" onclick="towergenerator();">
                 <h3>Create</h3>
+            </div>
+            <div>
+                <span id="Koordinaten">
+                </span>
             </div>
         </div>
         <div id="boxright">

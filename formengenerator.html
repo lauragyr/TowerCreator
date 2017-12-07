@@ -10,7 +10,6 @@
     <link href="css/main.css" type="text/css" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="js/pseudo.js"></script>
     <script src="js/main.js" type="text/javascript"></script>
@@ -23,11 +22,11 @@
 	<!-- <canvas ID="bild"></canvas> -->
     <title>TowerCreator</title>
 	<div id="clickToGenerate"> 
-		<h2 class="title-form">Click Button to generate form.<br>construct form with cube-elements</h2>
+		<h2>Click Button to generate figure.<br>construct form with cube-elements.</h2>
 		
 </div>
 <div id="creatorBox">
-	<div id="boxleft"> 
+	<div id="boxleft-formgen"> 
 		
 	   <div id="createButton" onclick="formengenerator();">
             <h3>Create</h3>
@@ -35,20 +34,34 @@
         <div>
             <img id="example-form" src="footage/example_formgenerator.png">
         </div>
-        <div>
-            <!--<span>example of which form to use.</span>-->
+        <div id="explanation">
+            <p>Here's an example of which figure to use. Always choose the biggest connecting figure. One element of the figure needs to have a red dot.</p>
         </div>
     </div>
-    
+
     <div id="boxright">
 
         <div id="schachbrett">
             <canvas ID="schach" width="500" height="500"></canvas>
-      
         </div>
     </div>
 
 </div>
+
+<div id="nav">
+        <div id="nav-left">
+        </div>
+        <div id="nav-right">
+            <a href="towergenerator.html">
+                <div>
+                    <p>generate position of figures</p>
+                </div>
+                <div>
+                    <img src="footage/ic_chevron_right.png">
+                </div>
+            </a>
+        </div>
+    </div>
 
 
 
