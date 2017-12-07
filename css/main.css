@@ -1,23 +1,18 @@
 body {
 	background-color: black; 
-	overflow: hidden;
 	margin: 0px; 
 }
 
-h1 {
-	font-family: 'Unica One';
-	color: white;
-	text-align: center;
-	font-size: 8em;
-	padding-top: 150px;
+#clickToGenerate
+{
+	height: 130px;
 }
 
-h2 {
-	color: white;
-}
-#intro {
+#intro-towercreator {
 	height: 80vh;
 }
+
+/*  --NAVIGATION--  */
 
 #nav {
 	height: 20vh;
@@ -25,12 +20,28 @@ h2 {
 	display: flex;
 }
 
+#nav-left {
+	width: 70vw;
+	display: flex;
+}
 
-/* Regis Area */
+#nav-right {
+	width: 30vw;
+	display: flex;
+}
+
+#nav-right div {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+/*  --BUTTON--  */
 
 #creatorBox {
 	display: flex;
-	
+	/*display: inline-block;*/
+	width: 100vw;
 }
 
 #createButton { 
@@ -39,23 +50,37 @@ h2 {
 	height: 150px;
 	min-width: 150px;
 	min-height: 150px;
-	margin: auto;
+	margin-bottom: 50px;
 
 
 	border: 4px solid white;
 	border-radius: 50%;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 150px;  
+	line-height: 150px;
+	display: inline-block;
  }
+
+
+/*  --GENERALS--  */
+
+ h1 {
+	font-family: 'Unica One';
+	color: white;
+	text-align: center;
+	font-size: 8em;
+	padding-top: 150px;
+}
 
  h2 {
 	font-family: 'Unica One';
 	color: white;
 	text-align: center;
-	font-size: 4em;
+	font-size: 3em;
+	/*
 	padding-top: 30px;
 	padding-bottom: 30px;
+	*/
 }
 
  h3 {
@@ -63,40 +88,6 @@ h2 {
 	color: white;
 	text-align: center;
 	font-size: 2em;
-}
-
-
-#boxleft {
-	margin: auto;
-	height: 100%;
-	width: 35vw;
-}
-
-#boxright {
-	margin: auto;
-	height: 100%;
-	width: 65vw;
-}
-
-canvas {
-	/*position: absolute;*/
-	background-color: #EEE;
-}
-
-#left {
-	width: 70vw;
-	display: flex;
-}
-
-#right {
-	width: 30vw;
-	display: flex;
-	
-}
-
-#right div {
-	margin-top: auto;
-	margin-bottom: auto;
 }
 
 p {
@@ -113,6 +104,49 @@ img {
 	display: flex;
 }
 
-/*#towerfeld {
-	background-color: white;
-}*/
+
+/*  --FORMENCREATOR--  */
+
+#boxleft {
+	height: 100%;
+	width: 30vw;
+	margin: auto;
+	/*margin: auto;*/
+	/*width: 30%;
+	display: inline-block;
+	*/
+}
+
+#boxright {
+	height: 100%;
+	width: 70vw;
+	padding-left: 50px;
+	/*margin: auto;*/
+	/*width: 70%;
+	display: inline-block;*/
+}
+
+canvas {
+	background-color: #EEE;
+}
+
+#example-form {
+	border: 4px solid white;
+	width: 150px;
+	height: 150px;
+	display: block;
+}
+
+#Koordinaten
+{
+	color: white;
+}
+
+#boxleft > div
+{
+	margin-left: 150px;
+}
+
+#schachbrett
+{
+}
