@@ -11,6 +11,11 @@ body {
 	height: 80vh;
 }
 
+#intro-towercreator p {
+	text-align: center;
+	margin-top: 50px;
+}
+
 /*  --NAVIGATION--  */
 
 #nav {
@@ -71,16 +76,17 @@ body {
 	font-family: 'Unica One';
 	color: white;
 	text-align: center;
-	font-size: 8em;
+	font-size: 10em;
 	padding-top: 150px;
 }
 
  h2 {
-	font-family: 'Unica One';
+	font-family: 'Barlow Semi Condensed';
 	color: white;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.5em;
 	margin-top: 20px;
+	font-weight: 400;
 }
 
  h3 {
@@ -94,6 +100,14 @@ p {
 	color: white;
 	text-decoration: none;
 	font-family: 'Barlow Semi Condensed';
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+span {
+	color: white;
+	text-decoration: none;
+	font-family: 'Unica One';
 	font-size: 1.2em;
 	font-weight: 300;
 }
